@@ -1,0 +1,785 @@
+[
+    {
+      "Tittel": "Don't Wanna Miss a Thing",
+      "Artist": "Aerosmith",
+      "Originaltekst": "Ja",
+      "Dato": "04.06.2011",
+      "TilKor": "Knauskoret",
+      "Besetning": "TTBB",
+      "Fremførelse": "https://www.youtube.com/watch?v=wHEz2lhNLiM&ab_channel=Knauskoret"
+    },
+    {
+      "Tittel": "Blackbird",
+      "Artist": "The Beatles",
+      "Originaltekst": "Ja",
+      "Dato": "29.09.2011",
+      "TilKor": "Tinnitus/AdamsEplekor",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Our House",
+      "Artist": "Madness",
+      "Originaltekst": "Ja",
+      "Dato": "10.02.2012",
+      "TilKor": "Tinnitus/AdamsEplekor",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Paranoid (Barbershop stil)",
+      "Artist": "Black Sabbath",
+      "Originaltekst": "Ja",
+      "Dato": "29.07.2012",
+      "TilKor": "Knauskoret",
+      "Besetning": "TTBB",
+      "Fremførelse": "https://www.youtube.com/watch?v=_hbtJfooz2Q&ab_channel=Knauskoret"
+    },
+    {
+      "Tittel": "Little Beggarman",
+      "Artist": "Trad",
+      "Originaltekst": "Ja",
+      "Dato": "29.08.2012",
+      "TilKor": "TSS",
+      "Besetning": "TTBB",
+      "Fremførelse": "https://www.youtube.com/watch?v=mnsrJHZTP0k&ab_channel=TSS%E2%80%93TrondhjemsStudentersangforening"
+    },
+    {
+      "Tittel": "Looking Out My Back Door",
+      "Artist": "Creedence Clearwater Revival",
+      "Originaltekst": "Ja",
+      "Dato": "13.09.2012",
+      "TilKor": "AdamsEplekor",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Vill ha dig",
+      "Artist": "Drømhus",
+      "Originaltekst": "Ja",
+      "Dato": "21.01.2013",
+      "TilKor": "Bilyd",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "I Will Wait",
+      "Artist": "Mumford And Sons",
+      "Originaltekst": "Ja",
+      "Dato": "04.04.2013",
+      "TilKor": "Knauskoret",
+      "Besetning": "TTBB",
+      "Fremførelse": "https://www.youtube.com/watch?v=g8Hi6E1UVyw&ab_channel=Knauskoret"
+    },
+    {
+      "Tittel": "Scary Monsters/Equinox",
+      "Artist": "Skrillex",
+      "Originaltekst": "Ja",
+      "Dato": "08.07.2013",
+      "TilKor": "Knauskoret",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Something Stupid",
+      "Artist": "Frank og Nancy Sinatra",
+      "Originaltekst": "Ja",
+      "Dato": "10.09.2013",
+      "TilKor": "Tinnitus/AdamsEplekor",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Summertime",
+      "Artist": "Ella Fitzgerhald",
+      "Originaltekst": "Ja",
+      "Dato": "13.09.2013",
+      "TilKor": "Tinnitus",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Menn",
+      "Artist": "Herborg Kraakevik",
+      "Originaltekst": "Ja",
+      "Dato": "13.03.2014",
+      "TilKor": "Bilyd",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Lets get sexual",
+      "Artist": "Diverse Artister",
+      "Originaltekst": "Ja",
+      "Dato": "06.08.2014",
+      "TilKor": "Knauskoret",
+      "Besetning": "TTBB",
+      "Fremførelse": "https://www.youtube.com/watch?v=0eX_QSCHexM&ab_channel=Knauskoret"
+    },
+    {
+      "Tittel": "White Winter Hymnal",
+      "Artist": "Fleet Foxes",
+      "Originaltekst": "Ja",
+      "Dato": "03.09.2014",
+      "TilKor": "Foetus",
+      "Besetning": "TTBB/SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Bögarnas Fel",
+      "Artist": "Grotesco",
+      "Originaltekst": "Ja",
+      "Dato": "01.10.2014",
+      "TilKor": "Tinnitus",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Have Yourself a Merry Little Christmas",
+      "Artist": "Ella Fitzgerhald",
+      "Originaltekst": "Ja",
+      "Dato": "14.10.2014",
+      "TilKor": "Bilyd",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Carry On Wayward Son",
+      "Artist": "Kansas",
+      "Originaltekst": "Ja",
+      "Dato": "11.1.2015",
+      "TilKor": "Knauskoret",
+      "Besetning": "SATB",
+      "Fremførelse": "https://www.youtube.com/watch?v=ya5Kc1ede_I&ab_channel=Knauskoret"
+    },
+    {
+      "Tittel": "Ta Godt Tak og Slå Meg Litt",
+      "Artist": "Britney Spears",
+      "Originaltekst": "Nei",
+      "Dato": "07.02.2015",
+      "TilKor": "Bilyd",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "No Diggity",
+      "Artist": "Dr. Dre og Snoop",
+      "Originaltekst": "Ja",
+      "Dato": "17.03.2015",
+      "TilKor": "Knauskoret",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "The World's Greatest",
+      "Artist": "R Kelly",
+      "Originaltekst": "Nei",
+      "Dato": "09.03.2015",
+      "TilKor": "Foetus",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Hey Ya",
+      "Artist": "Outkast (i stilen til the blanks)",
+      "Originaltekst": "Ja",
+      "Dato": "02.03.2015",
+      "TilKor": "Høystemt",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Area Codes",
+      "Artist": "Ludacris og Nate Dogg",
+      "Originaltekst": "Nei",
+      "Dato": "03.03.2015",
+      "TilKor": "Høystemt",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Fem Fine Frøkner",
+      "Artist": "Gabrielle",
+      "Originaltekst": "Ja",
+      "Dato": "20.04.2015",
+      "TilKor": "Knauskoret",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Medley of the Night",
+      "Artist": "Diverse Artister",
+      "Originaltekst": "Ja",
+      "Dato": "27.06.2015",
+      "TilKor": "Knauskoret",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Roberto",
+      "Artist": "",
+      "Originaltekst": "Nei",
+      "Dato": "28.08.2015",
+      "TilKor": "Candiss",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Her Kommer Vintern",
+      "Artist": "Jokke",
+      "Originaltekst": "Nei",
+      "Dato": "29.09.2015",
+      "TilKor": "Candiss",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Bruspulver Bossa",
+      "Artist": "Vazelina Bilopphøggers",
+      "Originaltekst": "Ja",
+      "Dato": "13.10.2015",
+      "TilKor": "MKM",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Mor og Far Sin Sang",
+      "Artist": "Rasmus og Verdens beste band",
+      "Originaltekst": "Nei",
+      "Dato": "29.09.2015",
+      "TilKor": "Pirum",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Rudolph the Red Nosed Reindeer",
+      "Artist": "Diverse Artister",
+      "Originaltekst": "Ja",
+      "Dato": "10.11.2015",
+      "TilKor": "TKS",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Disneymedley",
+      "Artist": "Diverse Artister",
+      "Originaltekst": "Ja",
+      "Dato": "08.08.2015",
+      "TilKor": "UKA",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Håkan Hellstrøm Medley",
+      "Artist": "Håkan Hellstrøm",
+      "Originaltekst": "Ja",
+      "Dato": "15.02.2016",
+      "TilKor": "Chorus Mixtus",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Fantasymedley",
+      "Artist": "Diverse Artister",
+      "Originaltekst": "Ja",
+      "Dato": "10.03.2016",
+      "TilKor": "Hoychoret",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Det Beste i Livet Er Gratis",
+      "Artist": "Vazelina Bilopphøggers",
+      "Originaltekst": "Ja",
+      "Dato": "20.04.2016",
+      "TilKor": "MKM",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Teen Town",
+      "Artist": "Weather Report",
+      "Originaltekst": "Ja",
+      "Dato": "29.06.2016",
+      "TilKor": "A Capellisimo",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Can't Feel My Face",
+      "Artist": "The Weeknd",
+      "Originaltekst": "Ja",
+      "Dato": "16.07.2016",
+      "TilKor": "Knauskoret",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Snälla Bli Min",
+      "Artist": "Veronica Maggio",
+      "Originaltekst": "Ja",
+      "Dato": "17.08.2016",
+      "TilKor": "Chorus Mixtus",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "C'mon Talk",
+      "Artist": "Jarle Bernhoft",
+      "Originaltekst": "Nei",
+      "Dato": "29.09.2016",
+      "TilKor": "Høystemt",
+      "Besetning": "",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Bad Karma",
+      "Artist": "Ida Maria",
+      "Originaltekst": "Ja",
+      "Dato": "15.02.2016",
+      "TilKor": "Bilyd",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Dødssøt",
+      "Artist": "Ravi",
+      "Originaltekst": "Ja",
+      "Dato": "16.01.2017",
+      "TilKor": "Foetus",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Spis Din Syvende Sans",
+      "Artist": "Karpe Diem",
+      "Originaltekst": "Ja",
+      "Dato": "30.01.2017",
+      "TilKor": "Bilyd",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Korstocksangen",
+      "Artist": "Toploader",
+      "Originaltekst": "Nei",
+      "Dato": "24.03.2017",
+      "TilKor": "Korstock",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "ABBA-medley",
+      "Artist": "Abba",
+      "Originaltekst": "Ja",
+      "Dato": "22.04.2017",
+      "TilKor": "Bjelkeklang",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "A Capella",
+      "Artist": "Ylvis",
+      "Originaltekst": "Ja",
+      "Dato": "06.03.2017",
+      "TilKor": "Høystemt",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Vondt i Hjertet",
+      "Artist": "Razika",
+      "Originaltekst": "Ja",
+      "Dato": "16.03.2017",
+      "TilKor": "Pikestrøm",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Karma Police",
+      "Artist": "Radiohead",
+      "Originaltekst": "Ja",
+      "Dato": "24.07.2017",
+      "TilKor": "Knauskoret",
+      "Besetning": "SATB",
+      "Fremførelse": "https://www.youtube.com/watch?v=gJ_71rROxcs"
+    },
+    {
+      "Tittel": "It's Gonna Be Me",
+      "Artist": "Nsync",
+      "Originaltekst": "Ja",
+      "Dato": "01.08.2017",
+      "TilKor": "Tinnitus",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Tida Vi Bare Va",
+      "Artist": "Sondre Justad",
+      "Originaltekst": "Omtrent",
+      "Dato": "07.08.2017",
+      "TilKor": "Candiss",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "God Jul Igjen",
+      "Artist": "No 4",
+      "Originaltekst": "Ja",
+      "Dato": "13.09.2017",
+      "TilKor": "Pikestrøm",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Forever Alone",
+      "Artist": "Kakkmaddafakka",
+      "Originaltekst": "Nei",
+      "Dato": "22.09.2017",
+      "TilKor": "Bilyd",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Et juleevangelium",
+      "Artist": "Klonver i Kamp",
+      "Originaltekst": "Ja",
+      "Dato": "10.10.2017",
+      "TilKor": "Foetus",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Det var D",
+      "Artist": "Vazelina Bilopphøggers",
+      "Originaltekst": "Nei",
+      "Dato": "25.10.2017",
+      "TilKor": "MKM",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Deler av ukepotpurri",
+      "Artist": "Pirum",
+      "Originaltekst": "Nei",
+      "Dato": "08.11.2017",
+      "TilKor": "Pirum",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Santa Claus is Coming to Town",
+      "Artist": "Diverse artister",
+      "Originaltekst": "Ja",
+      "Dato": "17.11.2017",
+      "TilKor": "TSS",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Tenk hvis jeg var",
+      "Artist": "UKA",
+      "Originaltekst": "Ja",
+      "Dato": "16.01.2018",
+      "TilKor": "Pirum",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Dr Jones",
+      "Artist": "Aqua",
+      "Originaltekst": "Ja",
+      "Dato": "08.02.2018",
+      "TilKor": "Bilyd",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Valsen",
+      "Artist": "Klovner i Kamp",
+      "Originaltekst": "Ja",
+      "Dato": "08.02.2018",
+      "TilKor": "Bilyd",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Drikker meg opp",
+      "Artist": "Real Group",
+      "Originaltekst": "Nei",
+      "Dato": "13.06.2018",
+      "TilKor": "Pirum",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Strangers",
+      "Artist": "Sigrid",
+      "Originaltekst": "Ja",
+      "Dato": "14.07.2018",
+      "TilKor": "Knauskoret",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "You Gave me the Answer",
+      "Artist": "Paul Macca",
+      "Originaltekst": "Nei",
+      "Dato": "29.01.2019",
+      "TilKor": "Pirum",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Alle Snakker Sant",
+      "Artist": "Siri Nilsen",
+      "Originaltekst": "Ja",
+      "Dato": "18.02.2019",
+      "TilKor": "Pikestrøm",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Toxic",
+      "Artist": "Britney Spears",
+      "Originaltekst": "Nei",
+      "Dato": "31.03.2019",
+      "TilKor": "MKM",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Fireflies",
+      "Artist": "Owl City",
+      "Originaltekst": "Ja",
+      "Dato": "21.06.2019",
+      "TilKor": "UKA",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Fredag",
+      "Artist": "Kjartan Lauritzen",
+      "Originaltekst": "Ja",
+      "Dato": "30.06.2019",
+      "TilKor": "Knauskoret",
+      "Besetning": "SATB/SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Kjempeform",
+      "Artist": "Ole Ivars",
+      "Originaltekst": "Ja",
+      "Dato": "16.10.2019",
+      "TilKor": "MKM",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Huset i Mitt Hjerte",
+      "Artist": "UKA",
+      "Originaltekst": "Nei",
+      "Dato": "05.11.2019",
+      "TilKor": "Pirum",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "I'm Still Standing",
+      "Artist": "Elton John",
+      "Originaltekst": "Ja",
+      "Dato": "18.01.2020",
+      "TilKor": "Høystemt/Pikestrøm",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "E Du Her",
+      "Artist": "Kristian Kristensen",
+      "Originaltekst": "Ja",
+      "Dato": "09.02.2020",
+      "TilKor": "Bilyd",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "We Could Start a Fire",
+      "Artist": "John Legend",
+      "Originaltekst": "Nei",
+      "Dato": "27.03.2020",
+      "TilKor": "MKM",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Dance Monkey",
+      "Artist": "Tones and I",
+      "Originaltekst": "Ja",
+      "Dato": "27.06.2020",
+      "TilKor": "Host!",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "En Stjerne Skinner i Natt",
+      "Artist": "Oslo Gospel Choir",
+      "Originaltekst": "Ja",
+      "Dato": "02.11.2020",
+      "TilKor": "TSS",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Medley fra 10 år",
+      "Artist": "Diverse artister",
+      "Originaltekst": "Ja",
+      "Dato": "08.01.2021",
+      "TilKor": "OMP",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Mrs Robinson",
+      "Artist": "Simon and Garfunkel",
+      "Originaltekst": "Nei",
+      "Dato": "31.01.2021",
+      "TilKor": "Sunniva",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Livet er helt ålreit",
+      "Artist": "Trang Fødsel",
+      "Originaltekst": "Nei",
+      "Dato": "21.03.2021",
+      "TilKor": "MKM",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Sleeping On My Dreams",
+      "Artist": "Jacob Collier",
+      "Originaltekst": "Ja",
+      "Dato": "12.07.2021",
+      "TilKor": "Knauskoret",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "High Hopes",
+      "Artist": "Panic! At the Disco",
+      "Originaltekst": "Ja",
+      "Dato": "15.08.2021",
+      "TilKor": "UKA",
+      "Besetning": "SATB",
+      "Fremførelse": "https://www.youtube.com/watch?v=MOWPO0popHk&ab_channel=Knauskoret"
+    },
+    {
+      "Tittel": "Song of Durin",
+      "Artist": "Clamavi De Profundis",
+      "Originaltekst": "Ja",
+      "Dato": "15.08.2021",
+      "TilKor": "Foetus",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Bella Ciao",
+      "Artist": "Manu Pilas",
+      "Originaltekst": "Nei",
+      "Dato": "14.09.2021",
+      "TilKor": "Pirum Old Boys",
+      "Besetning": "TTBB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Baris",
+      "Artist": "Pimp Lotion",
+      "Originaltekst": "Ja",
+      "Dato": "11.01.2022",
+      "TilKor": "Bilyd",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Love on top",
+      "Artist": "Beyonce",
+      "Originaltekst": "Ja",
+      "Dato": "27.12.2022",
+      "TilKor": "",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Smilet i ditt eget speil",
+      "Artist": "Chris Holsten",
+      "Originaltekst": "Ja",
+      "Dato": "27.12.2022",
+      "TilKor": "",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Dans På Bordet",
+      "Artist": "David Mokel, Balenciaga",
+      "Originaltekst": "Ja",
+      "Dato": "06.02.2023",
+      "TilKor": "",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Blod",
+      "Artist": "Jon Ranes",
+      "Originaltekst": "Ja",
+      "Dato": "31.05.2023",
+      "TilKor": "",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Tarzan medley",
+      "Artist": "Phil Collins",
+      "Originaltekst": "Ja",
+      "Dato": "01.08.2023",
+      "TilKor": "",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Samleiepotpuri",
+      "Artist": "Diverse artister",
+      "Originaltekst": "Ja",
+      "Dato": "08.08.2023",
+      "TilKor": "",
+      "Besetning": "SATB",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Shackles",
+      "Artist": "Mary Mary",
+      "Originaltekst": "Nei",
+      "Dato": "26.08.2023",
+      "TilKor": "",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Hva Kjærlighet Er",
+      "Artist": "No 4",
+      "Originaltekst": "Ja",
+      "Dato": "14.01.2024",
+      "TilKor": "",
+      "Besetning": "SSMAA",
+      "Fremførelse": ""
+    },
+    {
+      "Tittel": "Pitbullmedley",
+      "Artist": "Pitbull",
+      "Originaltekst": "Ja",
+      "Dato": "15.01.2025",
+      "TilKor": "",
+      "Besetning": "SSAA",
+      "Fremførelse": ""
+    }
+  ]
