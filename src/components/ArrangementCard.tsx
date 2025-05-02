@@ -12,8 +12,10 @@ export const ArrangementCard = ({ tittel, artist, dato, tilKor, besetning, fremf
     <div className="card">
       <h3>{tittel}</h3>
       <p><strong>Artist:</strong> {artist}</p>
-      <p><strong>Dato:</strong> {dato}</p>
       <p><strong>Besetning:</strong> {besetning}</p>
-      <a href={fremførelse} target="_blank" rel="noopener noreferrer">▶ Lytt til fremførelse</a>
+      <p><strong>Arrangert:</strong> {dato}</p>
+      {fremførelse &&
+        <a href={fremførelse} target="_blank" rel="noopener noreferrer">▶ Lytt til fremførelse</a>
+      }
     </div>
   );

@@ -1,14 +1,4 @@
-import { useState } from 'react';
-
 export const Home = () => {
-  const [subject, setSubject] = useState('');
-  const [body, setBody] = useState('');
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const mailtoLink = `mailto:din@email.no?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoLink;
-  };
 
   return (
     <div className="home">
@@ -23,31 +13,8 @@ export const Home = () => {
         lager jeg gjerne spesialtilpassede arrangementer – og jeg tilpasser alltid etter korets nivå og behov.
       </p>
       <p>
-        Bare send meg en e-post hvis du vil bestille eller har spørsmål. Håper du finner noe du liker – og takk for at du titter innom!
+        Bare send meg en e-post på <a href="mailto: hakontei@gmail.com">hakontei@gmail.com</a> hvis du vil bestille nytt arrangement, kjøpe et av mine ferdige arrangement, eller har spørsmål. Håper du finner noe du liker – og takk for at du titter innom!
       </p>
-
-      <h2>Kontakt meg</h2>
-      <form onSubmit={handleSubmit} className="contact-form">
-        <label>
-          Emne:
-          <input
-            type="text"
-            value={subject}
-            onChange={(e) => setSubject(e.target.value)}
-            required
-          />
-        </label>
-        <label>
-          Melding:
-          <textarea
-            value={body}
-            onChange={(e) => setBody(e.target.value)}
-            rows={5}
-            required
-          />
-        </label>
-        <button type="submit">Send e-post</button>
-      </form>
     </div>
   );
 };
