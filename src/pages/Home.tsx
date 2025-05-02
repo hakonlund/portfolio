@@ -2,7 +2,7 @@ export const Home = () => {
 
   return (
     <div className="home">
-      <h1>Hei, og velkommen hit!</h1>
+      <h1>Håkons arrangementer</h1>
       <p>
         Jeg heter Håkon Teigen Lund, og jeg jobber med å arrangere sanger for kor – alt fra poplåter til klassiske perler.
         Jeg har arrangert for kor i snart femten år, og har også dirigert flere kor gjennom årene. Det gir meg et godt
