@@ -1,24 +1,26 @@
 /* Farge- og fontdefinisjoner */
 :root {
-  --main-color: #7c2a2a;  /* Burgunder */
-  --main-hover: #641f1f;  /* Mørkere burgunder ved hover */
-  --navbar-bg: #f7eded;   /* Lys bakgrunn på navbar */
-  --border-color: #e3cfcf; /* Subtil grå kantlinje */
+  --main-color: #1D7A83;        /* Kald blågrønn */
+  --main-hover: #155C60;        /* Mørkere hover */
+  --navbar-bg: #B9E3E4;         /* Lys turkis navbar */
+  --border-color: #7DA5A6;      /* Mild blågrønn ramme */
+  --bg-color: #F2FCFD;          /* Nesten-hvit bakgrunn */
+  --text-color: #1E293B;        /* Dyp blågrå (god kontrast til lys bg) */
 }
 
 /* Generelle stiler */
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
-  background: #fdfdfd;
-  color: var(--main-color);
+  background: var(--bg-color);
+  color: var(--text-color);
   line-height: 1.6;
 }
 
 h1, h2 {
   font-family: 'Lora', serif;
   font-weight: 600;
-  color: var(--main-color);
+  color: var(--text-color);
 }
 
 .navbar {
@@ -44,7 +46,7 @@ h1, h2 {
   font-size: 1.5rem;
   font-family: 'Lora', serif;
   font-weight: 600;
-  color: var(--main-color);
+  color: var(--text-color);
   margin-right: 1rem;
 }
 
@@ -55,7 +57,7 @@ h1, h2 {
 }
 
 .nav a {
-  color: var(--main-color);
+  color: var(--text-color);
   text-decoration: none;
   font-size: 1.1rem;
   padding: 0.5rem;
@@ -70,7 +72,7 @@ h1, h2 {
 .burger {
   background: none;
   border: none;
-  color: var(--main-color);
+  color: var(--text-color);
   font-size: 2rem;
   cursor: pointer;
   display: none;
