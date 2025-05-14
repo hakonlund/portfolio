@@ -105,7 +105,7 @@ export const arrangements = [
       dato: "13.03.2014",
       tilKor: "Bilyd",
       besetning: "SSAA",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=c0RyQlROBMs"
     },
     {
       tittel: "Lets get sexual",
@@ -213,7 +213,7 @@ export const arrangements = [
       dato: "27.06.2015",
       tilKor: "Knauskoret",
       besetning: "SATB",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=w4pYEnw4BGY"
     },
     {
       tittel: "Roberto",
@@ -312,7 +312,7 @@ export const arrangements = [
       dato: "16.07.2016",
       tilKor: "Knauskoret",
       besetning: "TTBB",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=MOWPO0popHk"
     },
     {
       tittel: "Snälla Bli Min",
@@ -459,29 +459,11 @@ export const arrangements = [
       fremførelse: ""
     },
     {
-      tittel: "Deler av ukepotpurri",
-      artist: "Pirum",
-      originalTekst: "Nei",
-      dato: "08.11.2017",
-      tilKor: "Pirum",
-      besetning: "TTBB",
-      fremførelse: ""
-    },
-    {
       tittel: "Santa Claus is Coming to Town",
       artist: "Diverse artister",
       originalTekst: "Ja",
       dato: "17.11.2017",
       tilKor: "TSS",
-      besetning: "TTBB",
-      fremførelse: ""
-    },
-    {
-      tittel: "Tenk hvis jeg var",
-      artist: "UKA",
-      originalTekst: "Ja",
-      dato: "16.01.2018",
-      tilKor: "Pirum",
       besetning: "TTBB",
       fremførelse: ""
     },
@@ -492,7 +474,7 @@ export const arrangements = [
       dato: "08.02.2018",
       tilKor: "Bilyd",
       besetning: "SSAA",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=3nDEOUuFABU"
     },
     {
       tittel: "Valsen",
@@ -501,7 +483,7 @@ export const arrangements = [
       dato: "08.02.2018",
       tilKor: "Bilyd",
       besetning: "SSAA",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=oYNWvPdPJGs"
     },
     {
       tittel: "Drikker meg opp",
@@ -519,7 +501,7 @@ export const arrangements = [
       dato: "14.07.2018",
       tilKor: "Knauskoret",
       besetning: "SATB",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=qke7IQ1YP6k"
     },
     {
       tittel: "You Gave me the Answer",
@@ -564,7 +546,7 @@ export const arrangements = [
       dato: "30.06.2019",
       tilKor: "Knauskoret",
       besetning: "SATB/SSAA",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=jQmiNo8eysQ"
     },
     {
       tittel: "Kjempeform",
@@ -600,7 +582,7 @@ export const arrangements = [
       dato: "09.02.2020",
       tilKor: "Bilyd",
       besetning: "SSAA",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=Kh-L5h3QRVk"
     },
     {
       tittel: "We Could Start a Fire",
@@ -699,7 +681,7 @@ export const arrangements = [
       dato: "11.01.2022",
       tilKor: "Bilyd",
       besetning: "SSAA",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=6ZnXbADliFw"
     },
     {
       tittel: "Love on top",
@@ -726,7 +708,7 @@ export const arrangements = [
       dato: "06.02.2023",
       tilKor: "",
       besetning: "SSAA",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=qGyEir7JXo0"
     },
     {
       tittel: "Blod",
@@ -753,7 +735,7 @@ export const arrangements = [
       dato: "08.08.2023",
       tilKor: "",
       besetning: "SATB",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=9qS9ZWH0poY"
     },
     {
       tittel: "Shackles",
