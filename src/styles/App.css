@@ -34,6 +34,13 @@ h1, h2 {
   z-index: 10; /* Sørger for at navbaren alltid er på toppen */
 }
 
+.søkefelt {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  height: 30px;
+  font-size: 16px;
+}
+
 /* Styling for logo i navbar */
 .nav-container {
   display: flex;
