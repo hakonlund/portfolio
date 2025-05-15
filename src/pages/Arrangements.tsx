@@ -23,8 +23,8 @@ export const Arrangements = () =>   {
       <input 
         type="text" 
         onChange={filtrerArrangement}
-        placeholder='Søk'
-        className='søkefelt'
+        placeholder='Filter'
+        className='filterfelt'
         />
     </div>
     <div className="arrangement-grid">
