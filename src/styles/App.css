@@ -1,11 +1,12 @@
 /* Farge- og fontdefinisjoner */
 :root {
-  --main-color: #1D7A83;        /* Kald blågrønn */
-  --main-hover: #155C60;        /* Mørkere hover */
-  --navbar-bg: #B9E3E4;         /* Lys turkis navbar */
-  --border-color: #7DA5A6;      /* Mild blågrønn ramme */
-  --bg-color: #F2FCFD;          /* Nesten-hvit bakgrunn */
-  --text-color: #1E293B;        /* Dyp blågrå (god kontrast til lys bg) */
+  --main-color: #1E3A5F;        /* Klassisk navy blå */
+  --main-hover: #152945;        /* Mørkere navy hover */
+  --navbar-bg: #E8EEF4;         /* Lys blågrå navbar */
+  --border-color: #B8C5D6;      /* Myk blågrå ramme */
+  --bg-color: #FAFBFC;          /* Ren hvit-blå bakgrunn */
+  --text-color: #1A1F36;        /* Dyp blåsvart */
+  --accent-gold: #D4A574;       /* Varm gull/amber accent */
 }
 
 /* Generelle stiler */
@@ -40,6 +41,82 @@ h1, h2 {
   height: 30px;
   font-size: 16px;
   padding-left: 6px;
+}
+
+/* Search container */
+.search-container {
+  margin-bottom: 1.5rem;
+  max-width: 600px;
+}
+
+/* Filter chips */
+.filter-chips {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.besetning-chip {
+  cursor: pointer !important;
+  transition: transform 0.1s ease !important;
+}
+
+.besetning-chip:hover {
+  transform: scale(1.05);
+}
+
+/* Controls row */
+.controls-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.result-count {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.sort-select {
+  min-width: 200px;
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-color);
+  opacity: 0.7;
+}
+
+.empty-state p {
+  margin: 0.5rem 0;
+}
+
+.empty-state p:first-child {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Responsive adjustments for new components */
+@media (max-width: 768px) {
+  .controls-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sort-select {
+    width: 100%;
+  }
+
+  .search-container {
+    max-width: 100%;
+  }
 }
 
 /* Styling for logo i navbar */
@@ -133,6 +210,30 @@ h1, h2 {
   margin: auto;
 }
 
+.cta-container {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: var(--main-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(30, 58, 95, 0.2);
+}
+
+.cta-button:hover {
+  background-color: var(--main-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 58, 95, 0.3);
+}
+
 .contact-form {
   margin-top: 2rem;
   display: flex;
@@ -174,17 +275,59 @@ h1, h2 {
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
 }
 
-.card h3 {
-  margin-top: 0;
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.card a {
-  color: #0066cc;
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.card-header h3 {
+  margin: 0 0 0.5rem 0;
+  flex: 1;
+}
+
+.play-icon {
+  color: var(--main-color);
+  flex-shrink: 0;
+}
+
+.besetning-badges {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.besetning-badge {
+  font-weight: 600 !important;
+}
+
+.card p {
+  margin: 0.25rem 0;
+}
+
+.listen-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--main-color);
   text-decoration: none;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  transition: color 0.2s ease;
 }
 
-.card a:hover {
+.listen-link:hover {
+  color: var(--main-hover);
   text-decoration: underline;
 }

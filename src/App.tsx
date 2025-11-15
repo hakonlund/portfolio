@@ -7,6 +7,8 @@ import '@fontsource/inter/400.css';  // normal
 import '@fontsource/inter/600.css';  // semibold
 
 import '@fontsource/lora/600.css';   // overskrift
+import { ThemeProvider } from '@mui/material/styles';
+import { theme } from './theme';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,26 +33,28 @@ function App() {
   }, [menuOpen]);
 
   return (
-    <Router>
-      <header className="navbar">
-        <div className="nav-container">
-          <div className="logo">🎵 Håkon T. Lund</div>
-          <button className="burger" onClick={() => setMenuOpen(!menuOpen)}>
-            ☰
-          </button>
-        </div>
-        <nav ref={navRef} className={menuOpen ? 'nav open' : 'nav'}>
-          <Link to="/" onClick={() => setMenuOpen(false)}>Hjem</Link>
-          <Link to="/arrangementer" onClick={() => setMenuOpen(false)}>Arrangementer</Link>
-        </nav>
-      </header>
-      <main className="content">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/arrangementer" element={<Arrangements />} />
-        </Routes>
-      </main>
-    </Router>
+    <ThemeProvider theme={theme}>
+      <Router>
+        <header className="navbar">
+          <div className="nav-container">
+            <div className="logo">🎵 Håkon T. Lund</div>
+            <button className="burger" onClick={() => setMenuOpen(!menuOpen)}>
+              ☰
+            </button>
+          </div>
+          <nav ref={navRef} className={menuOpen ? 'nav open' : 'nav'}>
+            <Link to="/" onClick={() => setMenuOpen(false)}>Hjem</Link>
+            <Link to="/arrangementer" onClick={() => setMenuOpen(false)}>Arrangementer</Link>
+          </nav>
+        </header>
+        <main className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/arrangementer" element={<Arrangements />} />
+          </Routes>
+        </main>
+      </Router>
+    </ThemeProvider>
   );
 }
 
