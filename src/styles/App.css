@@ -176,7 +176,7 @@ h1, h2 {
     left: 0;
     width: 100%; /* Menyen fyller hele bredden av skjermen */
     background-color: var(--navbar-bg); /* Samme bakgrunn som navbar */
-    padding: 1rem 0; /* Litt padding for å gjøre menyen fin */
+    padding: 1rem; /* Padding på alle sider for å gi rom fra kantene */
     z-index: 9; /* Menyen er under navbaren */
   }
 
