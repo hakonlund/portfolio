@@ -105,7 +105,7 @@ export const arrangements = [
       dato: "13.03.2014",
       tilKor: "Bilyd",
       besetning: "SSAA",
-      fremførelse: "https://www.youtube.com/watch?v=c0RyQlROBMs"
+      fremførelse: ""
     },
     {
       tittel: "Lets get sexual",
@@ -150,7 +150,7 @@ export const arrangements = [
       dato: "11.1.2015",
       tilKor: "Knauskoret",
       besetning: "SATB",
-      fremførelse: "https://www.youtube.com/watch?v=ya5Kc1ede_I&ab_channel=Knauskoret"
+      fremførelse: ""
     },
     {
       tittel: "Ta Godt Tak og Slå Meg Litt",
@@ -294,7 +294,7 @@ export const arrangements = [
       dato: "20.04.2016",
       tilKor: "MKM",
       besetning: "TTBB",
-      fremførelse: "https://www.youtube.com/watch?v=YIH42jii-58"
+      fremførelse: ""
     },
     {
       tittel: "Teen Town",
@@ -465,7 +465,7 @@ export const arrangements = [
       dato: "08.02.2018",
       tilKor: "Bilyd",
       besetning: "SSAA",
-      fremførelse: "https://www.youtube.com/watch?v=3nDEOUuFABU"
+      fremførelse: ""
     },
     {
       tittel: "Valsen",
@@ -474,7 +474,7 @@ export const arrangements = [
       dato: "08.02.2018",
       tilKor: "Bilyd",
       besetning: "SSAA",
-      fremførelse: "https://www.youtube.com/watch?v=oYNWvPdPJGs"
+      fremførelse: ""
     },
     {
       tittel: "Drikker meg opp",
@@ -492,7 +492,7 @@ export const arrangements = [
       dato: "14.07.2018",
       tilKor: "Knauskoret",
       besetning: "SATB",
-      fremførelse: "https://www.youtube.com/watch?v=qke7IQ1YP6k"
+      fremførelse: ""
     },
     {
       tittel: "You Gave me the Answer",
@@ -573,7 +573,7 @@ export const arrangements = [
       dato: "09.02.2020",
       tilKor: "Bilyd",
       besetning: "SSAA",
-      fremførelse: "https://www.youtube.com/watch?v=Kh-L5h3QRVk"
+      fremførelse: ""
     },
     {
       tittel: "We Could Start a Fire",
@@ -636,7 +636,7 @@ export const arrangements = [
       dato: "12.07.2021",
       tilKor: "Knauskoret",
       besetning: "SATB",
-      fremførelse: "https://www.youtube.com/watch?v=FR_gPQooLdA&list=RDFR_gPQooLdA&start_radio=1"
+      fremførelse: ""
     },
     {
       tittel: "High Hopes",
@@ -672,7 +672,7 @@ export const arrangements = [
       dato: "11.01.2022",
       tilKor: "Bilyd",
       besetning: "SSAA",
-      fremførelse: "https://www.youtube.com/watch?v=6ZnXbADliFw"
+      fremførelse: ""
     },
     {
       tittel: "Love on top",
@@ -699,7 +699,7 @@ export const arrangements = [
       dato: "06.02.2023",
       tilKor: "",
       besetning: "SSAA",
-      fremførelse: "https://www.youtube.com/watch?v=qGyEir7JXo0"
+      fremførelse: ""
     },
     {
       tittel: "Blod",
