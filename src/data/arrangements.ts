@@ -329,7 +329,7 @@ export const arrangements = [
       originalTekst: "Nei",
       dato: "29.09.2016",
       tilKor: "Høystemt",
-      besetning: "",
+      besetning: "TTBB",
       fremførelse: ""
     },
     {
