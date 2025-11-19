@@ -123,7 +123,7 @@ export const arrangements = [
       dato: "03.09.2014",
       tilKor: "Foetus",
       besetning: "TTBB/SATB",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=DD8DRwYe92g&list=RDDD8DRwYe92g&start_radio=1"
     },
     {
       tittel: "Bögarnas Fel",
@@ -240,7 +240,7 @@ export const arrangements = [
       dato: "13.10.2015",
       tilKor: "MKM",
       besetning: "TTBB",
-      fremførelse: ""
+      fremførelse: "https://youtu.be/d-p_P7w6GNs?list=RDd-p_P7w6GNs&t=268"
     },
     {
       tittel: "Mor og Far Sin Sang",
@@ -248,7 +248,7 @@ export const arrangements = [
       originalTekst: "Nei",
       dato: "29.09.2015",
       tilKor: "Pirum",
-      besetning: "SATB",
+      besetning: "TTBB",
       fremførelse: ""
     },
     {
@@ -257,7 +257,7 @@ export const arrangements = [
       originalTekst: "Ja",
       dato: "10.11.2015",
       tilKor: "TKS",
-      besetning: "SATB",
+      besetning: "SSAA",
       fremførelse: ""
     },
     {
@@ -293,8 +293,8 @@ export const arrangements = [
       originalTekst: "Ja",
       dato: "20.04.2016",
       tilKor: "MKM",
-      besetning: "SATB",
-      fremførelse: ""
+      besetning: "TTBB",
+      fremførelse: "https://www.youtube.com/watch?v=YIH42jii-58"
     },
     {
       tittel: "Teen Town",
@@ -357,15 +357,6 @@ export const arrangements = [
       dato: "30.01.2017",
       tilKor: "Bilyd",
       besetning: "SSAA",
-      fremførelse: ""
-    },
-    {
-      tittel: "Korstocksangen",
-      artist: "Toploader",
-      originalTekst: "Nei",
-      dato: "24.03.2017",
-      tilKor: "Korstock",
-      besetning: "SATB",
       fremførelse: ""
     },
     {
@@ -645,7 +636,7 @@ export const arrangements = [
       dato: "12.07.2021",
       tilKor: "Knauskoret",
       besetning: "SATB",
-      fremførelse: ""
+      fremførelse: "https://www.youtube.com/watch?v=FR_gPQooLdA&list=RDFR_gPQooLdA&start_radio=1"
     },
     {
       tittel: "High Hopes",
@@ -654,7 +645,7 @@ export const arrangements = [
       dato: "15.08.2021",
       tilKor: "UKA",
       besetning: "SATB",
-      fremførelse: "https://www.youtube.com/watch?v=MOWPO0popHk&ab_channel=Knauskoret"
+      fremførelse: ""
     },
     {
       tittel: "Song of Durin",
