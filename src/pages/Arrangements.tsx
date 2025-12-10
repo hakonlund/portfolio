@@ -78,7 +78,7 @@ export const Arrangements = () =>   {
   };
 
   return (
-  <div>
+  <div className="arrangements-page">
     <h1>Arrangementer</h1>
 
     {/* Søkefelt */}

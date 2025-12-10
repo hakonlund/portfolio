@@ -1,26 +1,34 @@
 import { Link } from 'react-router-dom';
+import heroImage from '../img/bilde_dirigering.jpg';
 
 export const Home = () => {
 
   return (
     <div className="home">
-      <h1>Håkons arrangementer</h1>
-      <p>
-        Jeg heter Håkon Teigen Lund, og jeg jobber med å arrangere sanger for kor, alt fra poplåter til klassiske stykker.
-        Jeg har arrangert for kor i snart femten år, og har også dirigert flere kor gjennom årene. Det gir meg et godt
-        blikk for hva som fungerer i praksis.
-      </p>
-      <p>
-        Her på nettsiden finner du en liste over ferdige arrangementer som du kan bruke med koret ditt. Ønsker du noe helt eget,
-        lager jeg gjerne spesialtilpassede arrangementer.
-      </p>
-      <p>
-        Bare send meg en e-post på <a href="mailto: hakontei@gmail.com">hakontei@gmail.com</a> hvis du vil bestille nytt arrangement, kjøpe et av mine ferdige arrangement, eller har spørsmål.
-      </p>
-      <div className="cta-container">
-        <Link to="/arrangementer" className="cta-button">
-          Se alle arrangementer
-        </Link>
+      <div className="hero-section" style={{ backgroundImage: `url(${heroImage})` }}>
+        <div className="hero-overlay">
+          <h1 className="hero-title">Håkons korarrangementer</h1>
+        </div>
+      </div>
+
+      <div className="home-content">
+        <p>
+          Jeg heter Håkon Teigen Lund, og jeg jobber med å arrangere sanger for kor, alt fra poplåter til klassiske stykker.
+          Jeg har arrangert for kor i snart femten år, og har også dirigert flere kor gjennom årene. Det gir meg et godt
+          blikk for hva som fungerer i praksis.
+        </p>
+        <p>
+          Her på nettsiden finner du en liste over ferdige arrangementer som du kan bruke med koret ditt. Ønsker du noe helt eget,
+          lager jeg gjerne spesialtilpassede arrangementer.
+        </p>
+        <p>
+          Bare send meg en e-post på <a href="mailto: hakontei@gmail.com">hakontei@gmail.com</a> hvis du vil bestille nytt arrangement, kjøpe et av mine ferdige arrangement, eller har spørsmål.
+        </p>
+        <div className="cta-container">
+          <Link to="/arrangementer" className="cta-button">
+            Se alle arrangementer
+          </Link>
+        </div>
       </div>
     </div>
   );
