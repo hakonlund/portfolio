@@ -1,11 +1,10 @@
-import { Link } from 'react-router-dom';
-import heroImage from '../img/bilde_dirigering.jpg';
+import Link from 'next/link';
+import Image from 'next/image';
 
-export const Home = () => {
-
+export default function Home() {
   return (
     <div className="home">
-      <div className="hero-section" style={{ backgroundImage: `url(${heroImage})` }}>
+      <div className="hero-section" style={{ backgroundImage: 'url(/img/bilde_dirigering.jpg)' }}>
         <div className="hero-overlay">
           <h1 className="hero-title">Håkons korarrangementer</h1>
         </div>
@@ -25,11 +24,11 @@ export const Home = () => {
           Bare send meg en e-post på <a href="mailto: hakontei@gmail.com">hakontei@gmail.com</a> hvis du vil bestille nytt arrangement, kjøpe et av mine ferdige arrangement, eller har spørsmål.
         </p>
         <div className="cta-container">
-          <Link to="/arrangementer" className="cta-button">
+          <Link href="/arrangementer" className="cta-button">
             Se alle arrangementer
           </Link>
         </div>
       </div>
     </div>
   );
-};
+}
