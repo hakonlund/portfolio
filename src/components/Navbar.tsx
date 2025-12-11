@@ -28,7 +28,7 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div className="nav-container">
-        <div className="logo">🎵 Håkon T. Lund</div>
+        <div className="logo">🎵 Håkon Teigen Lund</div>
         <button className="burger" onClick={() => setMenuOpen(!menuOpen)}>
           ☰
         </button>
