@@ -12,14 +12,13 @@ type Props = {
     artist: string;
     originalTekst: string;
     dato: string;
-    tilKor: string;
     besetning: string;
     fremførelse: string;
     previewPdf?: string;
     previewMp3?: string;
   };
 
-export const ArrangementCard = ({ tittel, artist, dato, tilKor, besetning, fremførelse, previewPdf, previewMp3 }: Props) => {
+export const ArrangementCard = ({ tittel, artist, dato, besetning, fremførelse, previewPdf, previewMp3 }: Props) => {
   const [isAudioModalOpen, setIsAudioModalOpen] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
