@@ -1,4 +1,16 @@
-export const arrangements = [
+export type Arrangement = {
+  tittel: string;
+  artist: string;
+  originalTekst: string;
+  dato: string;
+  tilKor: string;
+  besetning: string;
+  fremførelse: string;
+  previewPdf?: string;
+  previewMp3?: string;
+};
+
+export const arrangements: Arrangement[] = [
     {
       tittel: "Don't Wanna Miss a Thing",
       artist: "Aerosmith",
@@ -747,6 +759,15 @@ export const arrangements = [
       fremførelse: ""
     },
     {
+      tittel: "Bridge Over Troubled Water",
+      artist: "Simon And Garfunkel",
+      originalTekst: "Ja",
+      dato: "28.01.2024",
+      tilKor: "",
+      besetning: "TLBarB",
+      fremførelse: ""
+    },
+    {
       tittel: "Pitbullmedley",
       artist: "Pitbull",
       originalTekst: "Ja",
@@ -754,5 +775,16 @@ export const arrangements = [
       tilKor: "",
       besetning: "SSAA",
       fremførelse: ""
+    },
+    {
+      tittel: "Remember",
+      artist: "Becky Hill, David Guetta",
+      originalTekst: "Ja",
+      dato: "02.03.2025",
+      tilKor: "",
+      besetning: "SATB",
+      fremførelse: "",
+      previewPdf: "/previews/remember/remember-preview.pdf",
+      previewMp3: "/previews/remember/remember-preview.mp3"
     }
   ]

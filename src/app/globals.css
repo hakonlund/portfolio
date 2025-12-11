@@ -355,3 +355,44 @@ h1, h2 {
   color: var(--main-hover);
   text-decoration: underline;
 }
+
+/* Preview section */
+.preview-section {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.preview-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.preview-link:hover {
+  color: var(--main-hover);
+  text-decoration: underline;
+}
+
+.audio-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--main-color);
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  user-select: none;
+}
+
+.audio-trigger:hover {
+  color: var(--main-hover);
+  text-decoration: underline;
+}

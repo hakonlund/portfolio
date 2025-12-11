@@ -1,5 +1,11 @@
-import { Chip } from '@mui/material';
+'use client';
+
+import { useState, useRef } from 'react';
+import { Chip, Dialog, DialogTitle, DialogContent, IconButton } from '@mui/material';
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
+import AudioFileIcon from '@mui/icons-material/AudioFile';
+import CloseIcon from '@mui/icons-material/Close';
 
 type Props = {
     tittel: string;
@@ -9,9 +15,31 @@ type Props = {
     tilKor: string;
     besetning: string;
     fremførelse: string;
+    previewPdf?: string;
+    previewMp3?: string;
   };
 
-export const ArrangementCard = ({ tittel, artist, dato, tilKor, besetning, fremførelse }: Props) => {
+export const ArrangementCard = ({ tittel, artist, dato, tilKor, besetning, fremførelse, previewPdf, previewMp3 }: Props) => {
+  const [isAudioModalOpen, setIsAudioModalOpen] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
+
+  const handleOpenAudioModal = () => {
+    setIsAudioModalOpen(true);
+    // Use setTimeout to ensure modal is open and audio element is rendered
+    setTimeout(() => {
+      audioRef.current?.play();
+    }, 100);
+  };
+
+  const handleCloseAudioModal = () => {
+    // Pause audio before closing
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    setIsAudioModalOpen(false);
+  };
+
   // Farger for forskjellige kortyper
   const getBesetningColor = (besetning: string): "primary" | "secondary" | "success" | "warning" | "error" | "info" => {
     // Blandakor (mixed choir) - Navy blue
@@ -51,6 +79,47 @@ export const ArrangementCard = ({ tittel, artist, dato, tilKor, besetning, fremf
         <a href={fremførelse} target="_blank" rel="noopener noreferrer" className="listen-link">
           <PlayCircleOutlineIcon fontSize="small" /> Lytt til fremførelse
         </a>
+      )}
+
+      {/* Preview section */}
+      {(previewPdf || previewMp3) && (
+        <div className="preview-section">
+          {previewPdf && (
+            <a href={previewPdf} target="_blank" rel="noopener noreferrer" className="preview-link">
+              <PictureAsPdfIcon fontSize="small" /> Se noteeksempel
+            </a>
+          )}
+
+          {previewMp3 && (
+            <>
+              <div className="audio-trigger" onClick={handleOpenAudioModal}>
+                <AudioFileIcon fontSize="small" /> Lytt til utdrag
+              </div>
+
+              <Dialog
+                open={isAudioModalOpen}
+                onClose={handleCloseAudioModal}
+                maxWidth="sm"
+                fullWidth
+              >
+                <DialogTitle sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  {tittel}
+                  <IconButton onClick={handleCloseAudioModal} size="small">
+                    <CloseIcon />
+                  </IconButton>
+                </DialogTitle>
+                <DialogContent>
+                  <div style={{ padding: '1rem 0' }}>
+                    <audio ref={audioRef} controls preload="metadata" style={{ width: '100%' }}>
+                      <source src={previewMp3} type="audio/mpeg" />
+                      Din nettleser støtter ikke lydavspilling.
+                    </audio>
+                  </div>
+                </DialogContent>
+              </Dialog>
+            </>
+          )}
+        </div>
       )}
     </div>
   );

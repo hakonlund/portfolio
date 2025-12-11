@@ -5,16 +5,7 @@ import { useState, useMemo } from 'react';
 import { TextField, InputAdornment, IconButton, Chip, MenuItem, Select, FormControl, InputLabel, Fade } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import ClearIcon from '@mui/icons-material/Clear';
-
-type Arrangement = {
-  tittel: string;
-  artist: string;
-  originalTekst: string;
-  dato: string;
-  tilKor: string;
-  besetning: string;
-  fremførelse: string;
-};
+import type { Arrangement } from '@/data/arrangements';
 
 type SortOption = 'tittel' | 'dato-nyest' | 'dato-eldst' | 'artist';
 
